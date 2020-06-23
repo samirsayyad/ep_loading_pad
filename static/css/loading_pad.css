@@ -1,0 +1,14 @@
+#image_style_div{
+    width : 100%;
+    height: 100%;
+}
+#image_style_img{
+    width: 90%;
+}
+
+@media screen and (max-width: 480px) {
+    #image_style_img{
+        width: 50%;
+
+    }
+  }
