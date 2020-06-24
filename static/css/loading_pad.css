@@ -3,8 +3,9 @@
     height: 100%;
 }
 #image_style_img{
-    width: 51%;
-    margin-top: -5%;
+    width: 14%;
+    margin-top: 5%;
+
 }
 
 @media screen and (max-width: 480px) {
