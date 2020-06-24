@@ -10,35 +10,11 @@
 .padLoading{
     font-style: italic;
 }
-.earlyAccess {
-    padding-top: 0pt;
-    padding-bottom: 0pt;
-    line-height: 1.15;
-    orphans: 2;
-    widows: 2;
-    text-align: center
-}
-.earlyAccess_text {
-    font-size: 14pt;
-    color: #1155cc;
-    font-weight: 700
-}
-.enquiries{
-    padding-top: 0pt;
-    padding-bottom: 0pt;
-    line-height: 1.15;
-    orphans: 2;
-    widows: 2;
-    text-align: center
-}
-.enquiries_text {
-    color: #000000;
-    font-weight: 400;
-    text-decoration: none;
-    vertical-align: baseline;
-    font-size: 12pt;
-    font-family: "Arial";
-    font-style: normal
+
+/* Imported css */
+.c10 {
+    color: inherit;
+    text-decoration: inherit
 }
 .c11{
     padding-top: 0pt;
@@ -48,8 +24,14 @@
     widows: 2;
     text-align: center
 }
-.c20 {
-    font-size: 12pt
+.c12 {
+    font-size: 14pt;
+    color: #1155cc;
+    font-weight: 700
+}
+
+.c13 {
+    font-weight: 700
 }
 .c16 {
     text-decoration-skip-ink: none;
@@ -58,10 +40,12 @@
     color: #2178fa;
     text-decoration: underline
 }
-.c10 {
-    color: inherit;
-    text-decoration: inherit
+
+.c20 {
+    font-size: 12pt
 }
+
+
 
 @media screen and (max-width: 480px) {
     #image_style_img{

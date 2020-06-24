@@ -8,7 +8,7 @@ var html = before + during + after;
 
 
 exports.eejsBlock_loading = function (hook_name, args, cb) {
-  args.content = args.content + eejs.require("ep_loading_pad/templates/loading.html") ;
+  args.content = eejs.require("ep_loading_pad/templates/loading.html") ;
 }
 
 exports.eejsBlock_styles = function (hook_name, args, cb) {
