@@ -12,6 +12,15 @@
 }
 
 /* Imported css */
+
+.c0 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 15pt;
+    font-style: normal
+}
 .c1 {
     color: #000000;
     font-weight: 400;
@@ -21,14 +30,6 @@
     font-style: normal
 }
 
-.c0 {
-    color: #000000;
-    font-weight: 400;
-    text-decoration: none;
-    vertical-align: baseline;
-    font-size: 12pt;
-    font-style: normal
-}
 
 .c2 {
     padding-top: 0pt;
