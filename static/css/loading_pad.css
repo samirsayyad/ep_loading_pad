@@ -10,6 +10,9 @@
 .padLoading{
     font-style: italic;
 }
+.docsPlus {
+    color: black;margin-top: 1%;margin-bottom: 1%;font-size: 31pt;
+}
 
 /* Imported css */
 
@@ -77,7 +80,14 @@
 
 @media screen and (max-width: 480px) {
     #image_style_img{
-        width: 100%;
+        width: 75%;
 
     }
+    .padLoading{
+        margin-bottom: 3%;
+    }
+    .docsPlus {
+        margin-top: 5%;margin-bottom: 4%;
+    }
+    
   }
