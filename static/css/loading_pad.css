@@ -3,7 +3,7 @@
     height: 100%;
 }
 #image_style_img{
-    width: 14%;
+    /* width: 14%; */
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -79,10 +79,10 @@
 
 
 @media screen and (max-width: 480px) {
-    #image_style_img{
+    /* #image_style_img{
         width: 75%;
 
-    }
+    } */
     .padLoading{
         margin-bottom: 3%;
     }
