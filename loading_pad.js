@@ -7,11 +7,12 @@ var after = "</div>";
 var html = before + during + after;
 
 
-exports.eejsBlock_loading = function (hook_name, args, cb) {
+exports.eejsBlock_loading = (hook_name, args, cb) =>{
   args.content = eejs.require("ep_loading_pad/templates/loading.html") ;
+  return {};
 }
 
-exports.eejsBlock_styles = function (hook_name, args, cb) {
+exports.eejsBlock_styles = (hook_name, args, cb) =>{
   args.content = args.content + "<link href='../static/plugins/ep_loading_pad/static/css/loading_pad.css' rel='stylesheet'>";
-  return cb();
+  return {};
 }
