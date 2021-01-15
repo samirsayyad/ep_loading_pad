@@ -57,3 +57,13 @@
 
 }
  
+@media print{
+    .ep_loading_pad_container{
+        width:100% !important;
+    }
+  }
+  @media (max-width: 720px){
+    .ep_loading_pad_container{
+        width:100% !important;
+    }
+  }
