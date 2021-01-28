@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 75%;
+    width: 50%;
     height: 500px;
 
   }
@@ -65,7 +65,7 @@
         width:100% !important;
     }
     .loadingLogo{
-        width: 75%;
+        width: 50%;
     }
   }
   @media (max-width: 720px){
@@ -73,6 +73,6 @@
         width:100% !important;
     }
     .loadingLogo{
-        width: 75%;
+        width: 50%;
     }
   }
