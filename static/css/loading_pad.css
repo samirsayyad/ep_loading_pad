@@ -6,6 +6,7 @@
 .wrapper {
     display: grid;
     place-items: center;
+    margin-top: 25%;
   }
   
   .loadingLogo {
