@@ -1,77 +1,75 @@
-.ep_loading_pad_container{
-    width:446px;
-    margin-top:281px ;
-    margin: auto;
+.ep_loading_pad_container {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
 }
-.wrapper {
-    display: grid;
-    place-items: center;
-    margin-top: 25%;
-  }
-  
-  .loadingLogo {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 500px;
 
+#editorloadingbox {
+  padding: 0 !important;
+  position: relative !important;
+}
+#innerSkeleton {
+  margin: auto;
+  max-width: 940px;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: block;
+  padding: 20px;
+  box-shadow: 0 1px 3px 1px rgb(60 64 67 / 15%);
+  border-radius: 4px;
+}
+
+#innerSkeleton .paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+#innerSkeleton .paragraph:first-of-type {
+  margin-top: 0;
+}
+
+#innerSkeleton .paragraph .line {
+  height: 16px;
+  margin-top: 12px;
+  border-radius: 4px;
+  background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  background-size: 600px;
+  animation: shine-lines 1.6s infinite linear;
+  background-color: #ddd;
+}
+
+#innerSkeleton .paragraph .line.large {
+  width: 100%;
+}
+
+#innerSkeleton .paragraph .line.medium {
+  width: 90%;
+}
+
+#innerSkeleton .paragraph .line.small {
+  width: 70%;
+}
+
+#innerSkeleton .paragraph .line.header {
+  width: 45%;
+  background-color: #ccc;
+  background-image: linear-gradient(90deg, #ccc 0px, #e8e8e8 40px, #ccc 80px);
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+@keyframes shine-lines {
+  0% {
+    background-position: -100px;
   }
-  
-  .animationOn {
-    animation: spin 1.3s infinite ease-in-out;
+
+  40%,
+  100% {
+    background-position: 140px;
   }
-  .animateTwo {
-    animation: animateAgain 1s infinite linear;
-  }
-  
-  @keyframes spin {
-    0% {
-      transform: scale(1) rotateY(0deg);
-    }
-    25% {
-      opacity: 1;
-    }
-    50% {
-      transform: scale(0.9) rotateY(360deg);
-      opacity: 0.9;
-    }
-    75% {
-      opacity: 1;
-    }
-    100% {
-      transform: scale(1) rotateY(360deg);
-    }
-  }
-  
-  @keyframes animateAgain {
-    0% {
-      transform: scale(1);
-      opacity: 1;
-    }
-    50% {
-      transform: scale(0.9);
-      opacity: 0.9;
-    }
-    100% {
-      transform: scale(1);
-      opacity: 1;
-    }
-  }
-  
- 
-@media print{
-    .ep_loading_pad_container{
-        width:100% !important;
-    }
-    .loadingLogo{
-        width: 50%;
-    }
-  }
-  @media (max-width: 720px){
-    .ep_loading_pad_container{
-        width:100% !important;
-    }
-    .loadingLogo{
-        width: 50%;
-    }
-  }
+}
