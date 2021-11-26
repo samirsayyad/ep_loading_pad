@@ -1,6 +1,6 @@
 {
   "name": "ep_loading_pad",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Show html instead of loading pad block",
   "main": "loading_pad.js",
   "scripts": {
