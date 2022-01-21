@@ -20,6 +20,7 @@
   padding: 20px;
   box-shadow: 0 1px 3px 1px rgb(60 64 67 / 15%);
   border-radius: 4px;
+  overflow: hidden;
 }
 
 #innerSkeleton .paragraph {

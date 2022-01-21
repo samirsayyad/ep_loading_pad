@@ -4,7 +4,9 @@
         "name": "loading_pad",
         "hooks": {
           "eejsBlock_styles": "ep_loading_pad/loading_pad",
-          "eejsBlock_loading": "ep_loading_pad/loading_pad"
+          "eejsBlock_timesliderStyles": "ep_loading_pad/loading_pad",
+          "eejsBlock_loading": "ep_loading_pad/loading_pad",
+          "eejsBlock_timesliderLoading": "ep_loading_pad/loading_pad"
         }
       }
     ]
