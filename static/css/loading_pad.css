@@ -6,6 +6,10 @@
   background: #f8f9fa;
 }
 
+body.mobileView .ep_loading_pad_container {
+  padding: 0;
+}
+
 #editorloadingbox {
   padding: 0 !important;
 }
